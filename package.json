@@ -1,14 +1,23 @@
 {
-  "name":"Math",
-  "author":"Sonicx180",
-  "version":"1.0.0",
-  "dependencies":{
-    "express":"~4.17.2"
-    
+  "name": "math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "main":"index.js",
-  "scripts":{
-    
-    "start":"node index.js"
-    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonicx180/math.git"
+  },
+  "author": "Sonicx180",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonicx180/math/issues"
+  },
+  "homepage": "https://github.com/sonicx180/math#readme",
+  "dependencies": {
+    "express": "^4.17.3"
   }
+}
