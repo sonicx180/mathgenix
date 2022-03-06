@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', (req,res) => {
-  res.send('Hello')
+  res.sendFile(__dirname + "templates/index.html);
   
 })
 
